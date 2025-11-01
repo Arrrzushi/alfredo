@@ -1,4 +1,4 @@
-name: cbs_flutter
+`name: cbs_flutter
 description: "Alfredo - AI Nutrition Assistant - A voice-first AI-powered nutrition companion"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

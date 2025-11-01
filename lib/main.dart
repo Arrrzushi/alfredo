@@ -10,10 +10,28 @@ import 'screens/smart_pantry_screen.dart';
 import 'screens/user_profile_screen.dart';
 import 'screens/ai_call_screen.dart';
 import 'providers/ai_call_provider.dart';
+import 'services/auth_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
+  // Initialize Firebase
   await Firebase.initializeApp();
+  print('✅ [MAIN] Firebase initialized');
+  
+  // Ensure user is authenticated (sign in anonymously for development)
+  try {
+    final user = await AuthService.ensureAuthenticated();
+    if (user != null) {
+      print('✅ [MAIN] User authenticated: ${user.uid}');
+    } else {
+      print('⚠️ [MAIN] Authentication failed, app may not work properly');
+    }
+  } catch (e) {
+    print('❌ [MAIN] Authentication error: $e');
+    // Continue anyway - the app will show errors if auth is required
+  }
+  
   runApp(const MyApp());
 }
 
