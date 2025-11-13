@@ -201,7 +201,7 @@ class VisionService {
 1. **Clone & Install**
 
    ```bash
-   git clone https://github.com/your-username/alfredo.git
+   git clone https://github.com/arrrzushi/alfredo.git
    cd alfredo && flutter pub get
    ```
 
