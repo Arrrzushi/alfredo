@@ -37,8 +37,8 @@ Alfredo combines **real-time computer vision** with **natural voice interaction*
 
 <div align="center">
 
-![Alfredo AI Analysis](<img width="540" height="1206" alt="image" src="https://github.com/user-attachments/assets/0165453a-cd99-49ef-b3a2-d362765ff4c3" />
-)
+![Alfredo AI Analysis] <img width="540" height="1206" alt="image" src="https://github.com/user-attachments/assets/10c5ef8b-4dec-4798-a404-bcd553c91092" />
+
 
 *🎯 **Real-time Analysis**: Alfredo identifies paneer and suggests instant recipes*
 *🎤 **Voice Interaction**: "I see you have paneer ready! How about quick Paneer Bhurji?"*
