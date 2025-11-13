@@ -37,7 +37,7 @@ Alfredo combines **real-time computer vision** with **natural voice interaction*
 
 <div align="center">
 
-![Alfredo AI Analysis] <img width="540" height="1206" alt="image" src="https://github.com/user-attachments/assets/10c5ef8b-4dec-4798-a404-bcd553c91092" />
+<img width="540" height="1206" alt="image" src="https://github.com/user-attachments/assets/10c5ef8b-4dec-4798-a404-bcd553c91092" />
 
 
 *🎯 **Real-time Analysis**: Alfredo identifies paneer and suggests instant recipes*
@@ -415,6 +415,5 @@ We believe cooking should be **joyful, creative, and accessible** to everyone. A
 
 **Built with ❤️, Flutter, and too much coffee**
 
-⭐ **If Alfredo makes your cooking easier, give us a star!** ⭐
+⭐ **If Alfredo makes your cooking easier, give me a star maybe?!** ⭐
 
-[![GitHub stars](
